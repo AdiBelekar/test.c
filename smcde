@@ -3,6 +3,7 @@ int sum(int,int);
 int main() {
   int a,b,c,d;
   a=10;
+  a=10;
   b=20;
   c=sum(a,b);        
   printf("sum is %d\n",c);
