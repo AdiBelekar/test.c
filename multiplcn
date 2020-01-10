@@ -1,0 +1,12 @@
+int multi(int,int);   
+int main() {
+  int a,b,c,d;
+  a=10;
+  b=20;
+  c=multi(a,b);        
+  printf("sum is %d\n",c);
+  d=multi(12,15);
+  printf("sum is %d\n",d);
+  printf("sum is %d\n",multi(18,16));
+  return 0;
+}
